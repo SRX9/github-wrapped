@@ -51,14 +51,14 @@ export default function UserWrapped({
 ⚡ ${stats.longestStreak} Day Streak
 🎯 ${stats.animeRank.title} (${stats.animeRank.level})
 💻 Top Language: ${stats.topLanguages[0]?.[0] || "N/A"}
-Check yours at github-wrapped-2024.vercel.app`;
+https://your-github-wrapped-2024.vercel.app/`;
 
     const shareUrls = {
       twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
         shareText
       )}`,
       linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-        "https://github-wrapped-2024.vercel.app"
+        "https://your-github-wrapped-2024.vercel.app/"
       )}&summary=${encodeURIComponent(shareText)}`,
     };
 
