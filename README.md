@@ -1,3 +1,9 @@
+## GitHub Wrapped 2024
+
+Built entirely using VSCode Copilot AI Editor while testing it.
+
+![image](https://github.com/user-attachments/assets/0c023796-f11e-4bb3-8c92-c9bd562a4e35)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
