@@ -2,6 +2,16 @@
 
 Built entirely using VSCode Copilot AI Editor while testing it.
 
+![Screenshot 2024-12-21 175058](https://github.com/user-attachments/assets/3ae810a5-d25e-46a0-8d03-488303d5e68c)
+![Screenshot 2024-12-21 175054](https://github.com/user-attachments/assets/f91e4f4d-fffd-421f-903a-6e832ec98d68)
+![Screenshot 2024-12-21 175049](https://github.com/user-attachments/assets/c6208ca6-201d-4ab6-8f84-8be75d0f9e78)
+![Screenshot 2024-12-21 175042](https://github.com/user-attachments/assets/a098e3ad-52eb-402e-b261-247555a4639b)
+![Screenshot 2024-12-21 175033](https://github.com/user-attachments/assets/21a3d4ce-ca4e-45cc-a3ac-ae3cccb7ec1c)
+![Screenshot 2024-12-21 175029](https://github.com/user-attachments/assets/ef878d61-d15a-4a59-866c-4616bc756466)
+![Screenshot 2024-12-21 175026](https://github.com/user-attachments/assets/2219f50b-b582-448e-aad3-60012f402dc2)
+![Screenshot 2024-12-21 175022](https://github.com/user-attachments/assets/7c905f09-d58b-479d-8ecb-1f08f97a676e)
+![Screenshot 2024-12-21 175019](https://github.com/user-attachments/assets/2fe1f967-af19-48ff-97df-0a140ad7d9f2)
+![Screenshot 2024-12-21 175015](https://github.com/user-attachments/assets/5f3d2ae7-e6e6-4d2c-b7e3-8847e47a0fa6)
 ![image](https://github.com/user-attachments/assets/0c023796-f11e-4bb3-8c92-c9bd562a4e35)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -11,6 +21,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+
 npm run dev
 # or
 yarn dev
