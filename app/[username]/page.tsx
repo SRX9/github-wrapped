@@ -6,6 +6,7 @@ import { Twitter, Linkedin, Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import WrappedSlides from "../components/github-wrapped/WrappedSlides";
 import Socials from "../components/Socials";
+import Link from "next/link";
 
 export default function UserWrapped({
   params,
@@ -122,7 +123,6 @@ https://your-github-wrapped-2024.vercel.app/`;
                   Try Another Username
                 </motion.button>
               </div>
-
               <div className="flex items-center gap-4 mt-2 mb-4 sm:-mb-20">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
@@ -143,7 +143,17 @@ https://your-github-wrapped-2024.vercel.app/`;
                   <Linkedin className="h-5 w-5" />
                   Share on LinkedIn
                 </motion.button>
-              </div>
+              </div>{" "}
+              <Link
+                href="https://ayesoul.com?utm=wrapped"
+                target="_blank"
+                className="mt-5"
+              >
+                <button className="inline-flex h-12 animate-shimmer items-center justify-center  border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors  py-10 rounded-3xl">
+                  ✨ Try AyeSoul, A State of the Art AI Search, Answers & Tasks
+                  Engine
+                </button>
+              </Link>
             </div>
           </motion.div>
         </div>

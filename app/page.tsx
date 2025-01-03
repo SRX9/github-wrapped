@@ -9,10 +9,12 @@ import {
   Twitter,
   Linkedin,
   Share2,
+  ArrowRightIcon,
 } from "lucide-react";
 import WrappedSlides from "./components/github-wrapped/WrappedSlides";
 import { useRouter } from "next/navigation";
 import Socials from "./components/Socials";
+import Link from "next/link";
 
 export default function GitHubWrapped() {
   const [username, setUsername] = useState("");
@@ -77,7 +79,7 @@ export default function GitHubWrapped() {
             >
               <form
                 onSubmit={handleSubmit}
-                className="rounded-xl bg-white/10 backdrop-blur-md p-8 shadow-2xl border border-white/20"
+                className="rounded-xl bg-white/10 backdrop-blur-md p-8 mb-10 shadow-2xl border border-white/20"
               >
                 <div className="mb-6 flex items-center gap-2">
                   <Github className="h-6 w-6" />
@@ -133,6 +135,16 @@ export default function GitHubWrapped() {
                   )}
                 </button>
               </form>
+              <Link
+                href="https://ayesoul.com?utm=wrapped"
+                target="_blank"
+                className="mt-5"
+              >
+                <button className="inline-flex h-12 animate-shimmer items-center justify-center  border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors  py-10 rounded-3xl">
+                  ✨ Try AyeSoul, A State of the Art AI Search, Answers & Tasks
+                  Engine
+                </button>
+              </Link>
             </motion.div>{" "}
           </div>{" "}
           <Socials />
